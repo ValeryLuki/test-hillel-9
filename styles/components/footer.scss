@@ -1,0 +1,20 @@
+@use "../common/variables" as vars;
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: vars.$color-white;
+
+    &__name {
+        margin-bottom: 20px;
+        font-weight: vars.$font-weight-md;
+        font-size: 21px;
+        line-height: vars.$primary-line-height;
+    }
+
+    &__copy {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+    }
+}

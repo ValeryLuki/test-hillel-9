@@ -1,0 +1,94 @@
+@use "../common/variables" as vars;
+@use "../common/mixins" as mx;
+
+.about-me {
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.project {
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        flex-wrap: wrap;
+
+        &__icon {
+            display: flex;
+            gap: 20px; 
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+
+            &-title {
+                font-size: 21px;
+                line-height: 25px;
+                color: vars.$color-white;
+                font-weight: vars.$font-weight-md; 
+            }
+
+            &-subtitle {
+                font-size: 16px;
+                color: vars.$color-white;
+                font-weight: 400;
+                line-height: vars.$primary-line-height;
+            }
+        }
+    }
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    font-size: 32px;
+    font-weight: vars.$font-weight-md;
+    line-height: 37px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.page-text {
+    @include mx.text(center);
+    margin-inline: auto;
+}
+
+.about-work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+
+    &__content {
+        margin-bottom: 50px;
+
+        & iframe {
+            width: 1110px;
+            height: 600px;
+            margin-top: 57px;
+        }
+    }
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    height: 0;
+    
+    & iframe {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
