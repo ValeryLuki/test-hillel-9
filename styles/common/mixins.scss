@@ -1,0 +1,32 @@
+@use "variables" as vars;
+
+@mixin text($align) {
+    color: vars.$color-dark-grey;
+    font-weight: 400;
+    line-height: vars.$primary-line-height;
+    max-width: 540px;
+    text-align: $align;
+}
+
+@mixin for-size($size) {
+   @if $size==small {
+    @media (max-width: 576px) {
+        @content;
+    }
+   }
+   @else if $size==medium {
+    @media (max-width: 768px) {
+        @content;
+    }
+   }
+   @else if $size==large {
+    @media (max-width: 992px) {
+        @content;
+    }
+   }
+   @else if $size==extra-large {
+    @media (max-width: 1200px) {
+        @content;
+    }
+   }
+}

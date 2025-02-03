@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+  .project-item {
+    gap: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .project-item {
+    gap: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .project-item {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-item__icon {
+    gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .project-item__icon {
+    gap: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .project-item__icon {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-item__text-title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .project-item__text-title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .project-item__text-title {
+    font-size: 10px;
+    line-height: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .project-item__text-subtitle {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .project-item__text-subtitle {
+    font-size: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .project-item__text-subtitle {
+    font-size: 6px;
+    line-height: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__list {
+    gap: 30px;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 576px) {
+  .menu__list {
+    gap: 22px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__copy {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .footer__copy {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu__list-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-title {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__name {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-text {
+    text-align: center;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=media.css.map */

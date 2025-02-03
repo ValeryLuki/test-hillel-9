@@ -1,0 +1,137 @@
+@use "../common/mixins" as mx;
+
+.project-item {
+    @include mx.for-size(extra-large) {
+        gap: 20px;
+    }
+    @include mx.for-size(large) {
+        gap: 5px;
+    }
+    @include mx.for-size(medium) {
+        gap: 3px;
+    }
+}
+
+.project-item__icon {
+    @include mx.for-size(extra-large) {
+        gap: 10px;
+    }
+    @include mx.for-size(large) {
+        gap: 5px;
+    }
+    @include mx.for-size(small) {
+        flex-direction: column;
+    }
+}
+
+.project-item__text-title {
+    @include mx.for-size(large) {
+        font-size: 16px;
+    }
+    @include mx.for-size(medium) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    @include mx.for-size(small) {
+        font-size: 10px;
+        line-height: 8px;
+    }
+}
+
+.project-item__text-subtitle {
+    @include mx.for-size(large) {
+        font-size: 12px;
+    }
+    @include mx.for-size(medium) {
+        font-size: 8px;
+    }
+    @include mx.for-size(small) {
+        font-size: 6px;
+        line-height: 8px;
+    }
+}
+
+.menu__list {
+    @include mx.for-size(medium) {
+        gap: 30px;
+        justify-content: space-around;
+    }
+    @include mx.for-size(small) {
+        gap: 22px;
+        justify-content: center;
+    }
+}
+
+.title {
+    @include mx.for-size(medium) {
+        font-size: 36px;
+        line-height: 56px;
+        text-align: center;
+    }
+     @include mx.for-size(small) {
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+    }
+}
+
+.icon {
+    @include mx.for-size(medium) {
+        width: 35px;
+        height: 35px;
+    }
+     @include mx.for-size(small) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.footer__copy {
+     @include mx.for-size(medium) {
+        text-align: center;
+    }
+    @include mx.for-size(small) {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+ .header {
+    @include mx.for-size(small) {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+ }
+
+.menu__list-item {
+     @include mx.for-size(small) {
+        font-size: 14px;
+    }
+}
+
+.content-title {
+    @include mx.for-size(small) {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+.button {
+    @include mx.for-size(small) {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+
+.footer__name {
+     @include mx.for-size(small) {
+         font-size: 18px;
+    }
+}
+
+.page-text {
+    @include mx.for-size(small) {
+        text-align: center;
+        font-size: 14px;
+    }
+}

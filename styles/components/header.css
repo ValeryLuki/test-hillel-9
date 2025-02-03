@@ -1,0 +1,50 @@
+.header {
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+
+.menu {
+  margin-bottom: 162px;
+}
+.menu__list {
+  display: flex;
+  gap: 42px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+.menu__list-item {
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.menu__list-item_active {
+  color: #34547A;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 79px;
+  margin-bottom: 60px;
+}
+
+.content-title {
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 540px;
+  text-align: left;
+}
+
+.button {
+  border: 0;
+  background-color: #34547A;
+  color: #FFFFFF;
+  padding: 19px 41px 20px 41px;
+  text-transform: uppercase;
+  line-height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  margin-top: 65px;
+}/*# sourceMappingURL=header.css.map */

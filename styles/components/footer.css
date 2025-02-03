@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+}
+.footer__name {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+}
+.footer__copy {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+}/*# sourceMappingURL=footer.css.map */

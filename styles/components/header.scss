@@ -1,0 +1,54 @@
+@use "../common/variables" as vars;
+@use "../common/mixins" as mx;
+
+.header {
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.menu {
+    margin-bottom: 162px;
+
+    &__list {
+        display: flex;
+        gap: 42px;
+        text-transform: uppercase;
+        flex-wrap: wrap;
+
+        &-item {
+            line-height: vars.$primary-line-height;
+            letter-spacing: vars.$primary-letter-spasing;
+
+            &_active {
+                color: vars.$color-blue;
+                font-weight: vars.$font-weight-md;
+            }
+        }
+    }
+}
+
+
+.title {
+    font-size: 48px;
+    font-weight: vars.$font-weight-md;
+    line-height: 79px;
+    margin-bottom: 60px;
+}
+
+.content-title {
+    @include mx.text(left);
+}
+
+.button {
+    border: 0;
+    background-color: vars.$color-blue;
+    color: vars.$color-white;
+    padding: 19px 41px 20px 41px;
+    text-transform: uppercase;
+    line-height: vars.$primary-line-height;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: vars.$primary-letter-spasing;
+    margin-top: 65px;
+}
+
